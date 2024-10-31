@@ -1,0 +1,104 @@
+@import url(/styles/header.css);
+@import url(/styles/apresentacao.css);
+@import url(/styles/solucoes.css);
+@import url(/styles/projetos.css);
+@import url(/styles/contato.css);
+@import url(/styles/footer.css);
+
+:root {
+    --cor-um: #FEFFFF;
+    --cor-dois: #f0f0f0;
+    --cor-tres: #E6B902;
+    --cor-quatro: #1F2126;
+    --cor-cinco: #282B33;
+    --cor-seis: #9b9b9b;
+
+    --main-fonte: 'Josefin Sans', system-ui;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--main-fonte);
+}
+
+/* ------------- FORMATAÇÃO DE FONTE ------------ */
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.nav_iten a {
+    font-size: 30px;
+}
+
+.botao a {
+    font-size: 25px;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 60px; 
+    }
+
+    h2 {
+        font-size: 36px; 
+    }
+
+    h3 {
+        font-size: 20px; 
+    }
+
+    p {
+        font-size: 14px; 
+    }
+
+    .nav_iten a {
+        font-size: 32px; 
+    }
+
+    .botao a {
+        font-size: 28px; 
+    }
+}
+
+
+@media (min-width: 1025px) {
+    h1 {
+        font-size: 70px; 
+    }
+
+    h2 {
+        font-size: 42px; 
+    }
+
+    h3 {
+        font-size: 24px; 
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .nav_iten a {
+        font-size: 34px; 
+    }
+
+    .botao a {
+        font-size: 30px;
+    }
+}
+
+

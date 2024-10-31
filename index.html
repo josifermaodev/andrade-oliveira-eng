@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/favicon.svg" type="image/x-icon">
+    <title>Oliveira Fábio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
+
+</head>
+<body>
+    <main>
+        <header class="header">
+            <nav class="menu">
+                <div class="alinhamento">
+                    <img src="/images/Logo.svg" alt="Logo da positivus" class="logo">
+                    <div class="mobile-menu">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="#" class="nav_iten">Home</a></li>
+                        <li><a href="#servicos" class="nav_iten">Serviços</a></li>
+                        <li><a href="#projeto" class="nav_iten">Projetos</a></li>
+                        <!-- <li><a href="#" class="nav_iten">Sobre</a></li> -->
+                        <li><a href="#contatos" class="nav_iten">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="apresentacao"> 
+            <div class="apresentacao_container">
+                <div class="flex_container">
+                    <h1 class="apresentacao_titulo">Andrade | Oliveira</h1>
+                    <h3 class="apresentacao_subtitulo">Engenharia Civil </h3>
+                    <p class="apresentacao_texto">Especializado em sondagem, projetos estruturais e arquitetônicos.
+                        Soluções seguras e inovadoras para o seu projeto de construção.</p>
+                    <div class="apresentacao_botao">
+                        <a href="https://wa.me/5527992856966?text=Gostaria%20de%20fazer%20um%20or%C3%A7amento!" target="_blank" class="botao">SOLICITAR ORÇAMENTO</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="solucoes" id="servicos">
+            <div class="solucoes_info">
+                <h2 class="solucoes_titulo">Transformando ideias em estruturas concretas</h2>
+                <p class="infos p_um">Oferecemos uma gama completa de serviços para atender às suas necessidades de construção com excelência e precisão.</p>
+                <div class="card_container">
+                    <div class="card">
+                        <div class="icone">
+                            <img src="/images/sondagem.png" alt="Ferramentas" class="card_icone">
+                        </div>
+                        <div class="info">
+                            <h3 class="card_titulo">Sondagem - SPT</h3>
+                            <p class="card_texto">Medimos a resistência do solo à penetração, avaliando sua capacidade de suporte em projetos de engenharia.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icone">
+                            <img src="/images/projetos-estruturais.png" alt="Ferramentas" class="card_icone">
+                        </div>
+                        <div class="info">
+                            <h3 class="card_titulo">Projetos Estruturais</h3>
+                            <p class="card_texto">Planejamos as estruturas de suporte da uma construção, garantindo segurança, estabilidade e funcionalidade.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icone">
+                            <img src="/images/projetos-arquitetonico.png" alt="Ferramentas" class="card_icone">
+                        </div>
+                        <div class="info">
+                            <h3 class="card_titulo">Projetos Arquitetônicos</h3>
+                            <p class="card_texto">Planejamentos detalhados de estética e funcionalidade dos espaços atendendo às necessidades dos usuários.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icone">
+                            <img src="/images/laudos-tecnicos.png" alt="Ferramentas" class="card_icone">
+                        </div>
+                        <div class="info">
+                            <h3 class="card_titulo">Laudos Técnicos</h3>
+                            <p class="card_texto">Avaliamos e registramos as condições estruturais, de segurança e conformidade de uma obra ou edificação.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icone">
+                            <img src="/images/regularizacao-de-obras.png" alt="Ferramentas" class="card_icone">
+                        </div>
+                        <div class="info">
+                            <h3 class="card_titulo">Regularização de Obras</h3>
+                            <p class="card_texto">Regularizamos construções junto aos órgãos públicos, assegurando que ela cumpra as normas e obtenha a documentação necessária.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icone">
+                            <img src="/images/gestao-de-obras.png" alt="Ferramentas" class="card_icone">
+                        </div>
+                        <div class="info">
+                            <h3 class="card_titulo">Gestão de Obras</h3>
+                            <p class="card_texto">Gerimos o planejamento, coordenação e controle de recursos e atividades para garantir prazo de entrega, orçamento e qualidade estabelecidos.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="infos p_dois">Além dos serviços mencionados, ofereçemos outras soluções. Para orçamentos e mais informações, entre em contato!</p>
+            </div>
+        </section>
+
+        <section class="projetos" id="projeto">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+             
+             <!--   Bullets do carrossel, se aumentar uma imagem, aumente um li e acrescento o próximo número -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
+                </ol>
+             
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/banner-sondagem-de-solo.jpg">
+                        <div class="titulo">
+                            <h2 class="titulo_descricao"> Sondagem SPT </h2>
+                            <p> A sondagem SPT (Standard Penetration Test) é um método de investigação geotécnica utilizado para avaliar as propriedades do solo, especialmente em projetos de construção civil. O teste fornece informações sobre a resistência do solo e suas características mecânicas. </p>
+                        </div>
+                    </div>
+                
+             
+                    <div class="carousel-item">
+                        <img src="/images/projeto-estrutural-valor-01.jpg">
+                        <div class="titulo">
+                            <h2 class="titulo_descricao"> Projeto estrutural </h2>
+                            <p> Um projeto estrutural é essencial para a construção de edifícios e outras infraestruturas. Ele visa garantir a segurança e a estabilidade da estrutura, suportando as cargas e forças atuantes, como o peso próprio, cargas móveis e forças naturais. </p>
+                        </div>
+                    </div>
+                
+                    <div class="carousel-item">
+                        <img src="/images/projeto-obra-civil.jpg">
+                        <div class="titulo">
+                            <h2 class="titulo_descricao"> Projeto arquitetônico </h2>
+                            <p> Um projeto arquitetônico é um plano detalhado que orienta a construção de edifícios e espaços urbanos. Ele envolve a criação de soluções estéticas e funcionais que atendem às necessidades dos usuários e respeitam as condições do local. </p>
+                        </div>
+                    </div>
+                
+                
+                    <!-- <div class="carousel-item">
+                        <img src="/images/erros-do-projeto-eletrico-1.jpg">
+                        <div class="titulo">
+                            <h2 class="titulo_descricao"> Projeto elétrico </h2>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        </div>
+                    </div> -->
+                </div> <!-- Fecha elementos dentro do carrossel -->
+               
+             <!--   Controladores | Botões -->
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only"> Previous </span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only"> Next </span>
+                </a> 
+            </div> <!-- Fim do carrossel -->
+        </section>
+
+        <section class="contato" id="contatos">
+            <div class="card_contato">
+                <div class="contato_chamativo">
+                    <h2 class="contato_titulo">Orçamento sem custo!</h2>
+                    <p>Peça seu orçamento agora e descubra como podemos transformar sua visão em realidade com soluções sob medida!</p>
+                    <div class="apresentacao_botao botao_footer">
+                        <a href="https://wa.me/5527992856966?text=Gostaria%20de%20fazer%20um%20or%C3%A7amento!" target="_blank" class="botao">SOLICITAR ORÇAMENTO</a>
+                    </div>
+                </div>
+                <div class="contato_contatos">
+                    <h2>Contatos:</h2>
+                    <a href="https://www.instagram.com/andrade.oliveira.engenharia/"><img src="/images/instagram.png" alt="" class="contato_img"> Instagram</a>
+                    <a href="https://wa.me/5527992856966?text=Gostaria%20de%20fazer%20um%20or%C3%A7amento!"><img src="/images/whatsapp.png" alt="" class="contato_img"> Whatsapp</a>
+                    <a href="https://www.linkedin.com/in/f%C3%A1bio-oliveira-02b58368/"><img src="/images/linkedin.png" alt="" class="contato_img">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="rodape">
+            <p>&copy; 2024 Fabio Oliveira - Todos os direitos reservados</p>
+        </footer>
+
+
+
+        <script src="./javaScript/mobile-navbar.js"></script>
+        <script src="./javaScript/carousel.js"></script>
+
+        
+        <a href="https://api.whatsapp.com/send/?phone=5527992856966&text=Gostaria+de+fazer+um+or%C3%A7amento%21&type=phone_number&app_absent=0" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;
+        z-index:1000;" target="_blank">
+            <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+        </a>
+
+    </main>
+    
+</body>
+</html>

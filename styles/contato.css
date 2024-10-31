@@ -1,0 +1,69 @@
+.contato {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 100%;
+}
+
+.card_contato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: var(--cor-dois);
+    box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.15);
+    max-width: 1000px;
+}
+
+.contato_chamativo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contato_titulo {
+    color: var(--cor-tres);
+}
+
+.botao_footer{
+    justify-content: center !important;
+}
+
+.contato_contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.contato_img {
+    width: 40px;
+}
+
+.contato_contatos a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    text-decoration: none;
+    color: var(--cor-cinco);
+}
+
+@media (min-width: 740px) {
+    .card_contato {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .contato_chamativo {
+        width: 50%;
+    }
+
+    .contato_contatos {
+        width: 50%;
+    }
+}
